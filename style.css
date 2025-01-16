@@ -1,13 +1,17 @@
 *{
 	margin: 0px;
 	padding: 0px;
+
+}
+.clr{
+    background-color: #F1F1F3;
 }
 
 .container{
 
 	width: 1280px;
 	margin: 0px auto;
-    background-color: #F1F1F3;
+    
 }
 
 
@@ -166,7 +170,7 @@
   }
   .banner-title{
     font-size:24px;
-    color:#808080;
+    color:#6A7972;
     padding-bottom:16px;
  }
  .banner-text{
@@ -204,7 +208,7 @@
  .cards{
     display: flex;
     margin-top:32px;
-    
+
     gap: 24px;
 
     
@@ -224,12 +228,12 @@
  }
  .card h3{
     font-size: 20px;
-    color:#333333;
+    color:#3E3E3E;
     padding-bottom: 12px;
  }
  .card p{
     font-size: 16px;
-    color: #4d4d4d;
+    color: #575757;
  }
 
  .two{
@@ -237,7 +241,7 @@
  }
  .heading p{
     font-size: 16px;
-    color:#4d4d4d;
+    color:#575757;
     padding-top: 24px;
 
  } 
@@ -252,12 +256,12 @@
  }
  .card-one h3{
     font-size: 20px;
-    color:#333333;
+    color:#3E3E3E;
     padding-bottom: 12px;
  }
  .card-one p{
     font-size: 16px;
-    color: #4d4d4d;
+    color: #575757;
     padding-bottom: 24px;
  }
  .card-one button{
@@ -288,12 +292,12 @@
  }
  .card-two h3{
     font-size: 20px;
-    color:#333333;
+    color:#3E3E3E;
     padding-bottom: 12px;
  }
  .card-two p{
     font-size: 16px;
-    color: #4d4d4d;
+    color: #575757;
     padding-bottom: 24px;
  }
  .card-two button{
@@ -324,12 +328,12 @@
  }
  .card-three h3{
     font-size: 20px;
-    color:#333333;
+    color:#3E3E3E;
     padding-bottom: 12px;
  }
  .card-three p{
     font-size: 16px;
-    color: #4d4d4d;
+    color: #575757;
     padding-bottom: 24px;
  }
  .card-three button{
@@ -362,16 +366,194 @@
     background-position: 24px 24px;
  }
  .txt{
-    color: #333333 ;
+    color: #3E3E3E ;
     font-size: 16px;
     padding-bottom: 12px;
  }
  .quote h3{
-    color: #333333;
+    color: #3E3E3E;
     font-size: 20px;
     padding-bottom: 2px;
  }
  .pos{
     font-size: 16px;
-    color: #999999;
+    color: #6E6E6E;
  }
+ .opinion{
+    margin-top: 24px;
+    padding: 32px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+ }
+ .three{
+    margin-bottom: 80px;
+ }
+ .four{
+    margin-bottom: 80px;
+ }
+ .news{
+    margin-top: 32px;
+    
+    
+ }
+ .news-txt h3{
+    font-size: 32px;
+    color: #3E3E3E;
+    padding-bottom: 12px;
+ }
+ .news-txt .tm{
+    font-size: 16px;
+    color: #575757;
+    padding-bottom: 12px;
+ }
+ .news-txt .ns{
+    font-size: 16px;
+    color: #575757;
+    padding-bottom: 32px;
+ }
+ .news-txt img{
+    padding-bottom: 12px;
+ }
+ .news-txt button{
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color:#006A50 ;
+    padding: 17px 34px;
+    border: none;
+    border-radius:8px ;
+    
+ }
+ .news-txt button:hover{
+    color: #006A50;
+    background-color:transparent ;
+    border: solid;
+    border-width: 1px;
+    
+ }
+ .pic img{
+    width: 408px;
+    border-radius: 24px;
+
+ }
+ .news-l{
+    padding: 48px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 32px;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:24px ;
+ }
+ .news-r{
+    padding: 48px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 32px;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:24px ;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+ }
+
+
+ .five{
+    text-align: center;
+    margin-bottom:80px ;
+ }
+ .cardsd{
+    display: flex;
+    margin-top:32px;
+    justify-items: center;
+    justify-content: center;
+    gap: 24px;
+ }
+ .card-donet{
+    padding: 40px;
+    background-color:#FFFFFF ;
+    border: solid;
+    border-color:#DBDBDB ;
+    border-width: 1px;
+    border-radius: 16px;
+ }
+ .card-donet h3{
+    font-size: 40px;
+ }
+ .card-donet-co{
+    padding: 40px;
+    background-color:#C6E4D6 ;
+    border: solid;
+    border-color:#AAC4B8 ;
+    border-width: 1px;
+    border-radius: 16px;
+ }
+ .card-donet-co h3{
+    font-size: 40px;
+ }
+ 
+ .don input{
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    padding:20px 40px ;
+    border: none;
+    border-bottom: solid 1px #DBDBDB;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+ .don button{
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color:#006A50 ;
+    padding: 17px 34px;
+    border: none;
+    border-radius:8px ;
+    
+ }
+ .don button:hover{
+    color: #006A50;
+    background-color:transparent ;
+    border: solid;
+    border-width: 1px;
+    
+ }
+
+ footer{
+    background-color: #FFFFFF;
+    padding: 50px 160px;
+
+
+ }
+ /* .nm{
+    width: 1120px;
+ } */
+
+ .nm2{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+ }
+
+ .nm h3 {
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    padding-bottom: 32px;
+    
+ }
+ hr{
+    border: 1px solid #E7E7E7;
+ }
+
+ .social{
+    padding-top: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+ }
+
+ 
