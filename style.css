@@ -519,6 +519,68 @@
     border-width: 1px;
     
  }
+ .six{
+    margin-bottom: 80px;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+ }
+ .newsletter{
+   
+    max-width: 750px;
+    margin: 0 auto;
+ }
+ .mwl-cnt h3{
+    font-size: 40px;
+    padding-bottom: 16px;
+ }
+ .mwl-cnt p{
+    font-size: 16px;
+    color: #464F4B;
+    padding-bottom: 24px;
+ }
+ .nwm-frm p{
+    font-size: 16px;
+    color: #464F4B;
+    padding-top: 24px;
+ }
+
+ .nwm-frm form{
+    display: flex;
+ }
+
+ .nwm-frm form input[type="text"]{
+    border: none;
+    background: white;
+    border-radius: 8px 0px 0px 8px;
+    padding: 18px 40px; 
+    font-size: 16px;
+   
+    width: 70%;
+    
+ }
+ ::placeholder{
+    color: #B7B7B7;
+}
+ .nwm-frm form input[type="submit"]{
+    border: none;
+    background: #006A50;
+    border-radius: 0px 8px 8px 0px;
+    padding: 18px 40px; 
+    font-size: 18px;
+    color: #FFFFFF;
+    
+ }
+ .nwm-frm form input[type="submit"]:hover{
+    border: none;
+    background: #FFFFFF;
+    border-radius: 0px 8px 8px 0px;
+    padding: 18px 40px; 
+    font-size: 18px;
+    color: #006A50;
+    
+ }
 
  footer{
     background-color: #FFFFFF;
